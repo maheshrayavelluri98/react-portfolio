@@ -3,6 +3,8 @@ import Jobby from "../assets/Jobby.png";
 import StopWatch from "../assets/stopwatch.png";
 import Ecommerce from "../assets/e-commerce.png";
 import Games from "../assets/games.png";
+import Portfolio from "../assets/portfolio.png";
+import Passwordmanager from "../assets/passwordmanager.png";
 
 const Work = () => {
   return (
@@ -83,6 +85,43 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href="https://rmaheshstpwtch.ccbp.tech">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group  rounded-md flex justify-center items-center  h-[200px] bg-cover relative">
+          <img src={Portfolio} alt="" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="font-bold text-white tracking-wider text-xs overflow-hidden">
+              Developed a dynamic and visually appealing portfolio website using
+              React.js for efficient component-based architecture and Tailwind
+              CSS for modern, responsive design.
+            </span>
+            <div className="pt-8 text-center">
+              <a href="https://react-portfolio-brown-zeta.vercel.app/">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group  rounded-md flex justify-center items-center  h-[200px] bg-cover relative">
+          <img src={Passwordmanager} alt="" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="font-bold text-white tracking-wider text-xs overflow-hidden">
+              Built a secure and user-friendly password manager using React.js,
+              featuring encrypted password storage and efficient state
+              management. The application allows users to safely store,
+              generate, and manage passwords with a clean and responsive
+              interface, ensuring accessibility and ease of use.
+            </span>
+            <div className="pt-8 text-center">
+              <a href="https://rmaheshpasswrds.ccbp.tech">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Live
                 </button>

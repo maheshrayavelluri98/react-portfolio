@@ -11,16 +11,16 @@ const About = () => {
               About me{" "}
             </h2>
             <p className="text-base lg:text-lg">
-              I am an aspiring MERN stack developer with a passion for
-              transforming innovative ideas into interactive web experiences.
-              With a solid foundation in HTML, CSS, and JavaScript, he is
-              dedicated to mastering the MERN stack, which includes MongoDB,
-              Express.js, React.js, and Node.js. thrives on building real-world
-              projects that not only showcase his technical skills but also
-              enhance user engagement. His creativity and problem-solving
-              abilities drive him to continuously learn and adapt in the
-              ever-evolving tech landscape, making him a valuable asset in the
-              field of web development.
+              As a MERN stack developer, I'm passionate about turning creative
+              ideas into engaging web experiences. With a strong background in
+              HTML, CSS, and JavaScript, I am committed to advancing my skills
+              in the MERN stack—MongoDB, Express.js, React.js, and Node.js. I
+              enjoy working on real-world projects that not only highlight my
+              technical abilities but also improve user interaction. My drive
+              for creativity and problem-solving keeps me learning and adapting
+              in the fast-paced tech world, making me eager to contribute to
+              innovative web development projects.I am dedicated to delivering
+              excellence in every project.
             </p>
           </div>
         </div>
