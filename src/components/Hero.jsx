@@ -10,7 +10,14 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px]  md:h-[70vh] mx-auto py-8 bg-black">
       <div className="col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
-        <img src={heroimage} alt="hero" className="size-80 mx-5" />
+        <img
+          src={heroimage}
+          width={300}
+          height={300}
+          className="mx-auto rounded-3xl py-8 md:py-0 object-cover"
+          alt="hero"
+        />
+
         {/* <img
           src={heroimage}
           alt="hero"
